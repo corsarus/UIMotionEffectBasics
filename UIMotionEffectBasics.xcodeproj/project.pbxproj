@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD9B60E1A0F601C0089C94F /* CCRLogarithmicMotionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B60D1A0F601C0089C94F /* CCRLogarithmicMotionEffect.m */; };
+		DDDC5E601A0E42C1001E5979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC5E5F1A0E42C1001E5979 /* main.m */; };
+		DDDC5E631A0E42C1001E5979 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC5E621A0E42C1001E5979 /* AppDelegate.m */; };
+		DDDC5E661A0E42C1001E5979 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC5E651A0E42C1001E5979 /* ViewController.m */; };
+		DDDC5E691A0E42C1001E5979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDC5E671A0E42C1001E5979 /* Main.storyboard */; };
+		DDDC5E6B1A0E42C1001E5979 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDC5E6A1A0E42C1001E5979 /* Images.xcassets */; };
+		DDDC5E6E1A0E42C1001E5979 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDC5E6C1A0E42C1001E5979 /* LaunchScreen.xib */; };
+		DDDC5E7A1A0E42C1001E5979 /* UIMotionEffectBasicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC5E791A0E42C1001E5979 /* UIMotionEffectBasicsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDC5E741A0E42C1001E5979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDC5E521A0E42C1001E5979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDC5E591A0E42C1001E5979;
+			remoteInfo = UIMotionEffectBasics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD9B60C1A0F601C0089C94F /* CCRLogarithmicMotionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRLogarithmicMotionEffect.h; sourceTree = "<group>"; };
+		DDD9B60D1A0F601C0089C94F /* CCRLogarithmicMotionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRLogarithmicMotionEffect.m; sourceTree = "<group>"; };
+		DDDC5E5A1A0E42C1001E5979 /* UIMotionEffectBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMotionEffectBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDC5E5E1A0E42C1001E5979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDC5E5F1A0E42C1001E5979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDDC5E611A0E42C1001E5979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDC5E621A0E42C1001E5979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDDC5E641A0E42C1001E5979 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDDC5E651A0E42C1001E5979 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDDC5E681A0E42C1001E5979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDC5E6A1A0E42C1001E5979 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDDC5E6D1A0E42C1001E5979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDDC5E731A0E42C1001E5979 /* UIMotionEffectBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMotionEffectBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDC5E781A0E42C1001E5979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDC5E791A0E42C1001E5979 /* UIMotionEffectBasicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMotionEffectBasicsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDC5E571A0E42C1001E5979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDC5E701A0E42C1001E5979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDC5E511A0E42C1001E5979 = {
+			isa = PBXGroup;
+			children = (
+				DDDC5E5C1A0E42C1001E5979 /* UIMotionEffectBasics */,
+				DDDC5E761A0E42C1001E5979 /* UIMotionEffectBasicsTests */,
+				DDDC5E5B1A0E42C1001E5979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDC5E5B1A0E42C1001E5979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC5E5A1A0E42C1001E5979 /* UIMotionEffectBasics.app */,
+				DDDC5E731A0E42C1001E5979 /* UIMotionEffectBasicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDC5E5C1A0E42C1001E5979 /* UIMotionEffectBasics */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC5E611A0E42C1001E5979 /* AppDelegate.h */,
+				DDDC5E621A0E42C1001E5979 /* AppDelegate.m */,
+				DDDC5E641A0E42C1001E5979 /* ViewController.h */,
+				DDDC5E651A0E42C1001E5979 /* ViewController.m */,
+				DDD9B60C1A0F601C0089C94F /* CCRLogarithmicMotionEffect.h */,
+				DDD9B60D1A0F601C0089C94F /* CCRLogarithmicMotionEffect.m */,
+				DDDC5E671A0E42C1001E5979 /* Main.storyboard */,
+				DDDC5E6A1A0E42C1001E5979 /* Images.xcassets */,
+				DDDC5E6C1A0E42C1001E5979 /* LaunchScreen.xib */,
+				DDDC5E5D1A0E42C1001E5979 /* Supporting Files */,
+			);
+			path = UIMotionEffectBasics;
+			sourceTree = "<group>";
+		};
+		DDDC5E5D1A0E42C1001E5979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC5E5E1A0E42C1001E5979 /* Info.plist */,
+				DDDC5E5F1A0E42C1001E5979 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDDC5E761A0E42C1001E5979 /* UIMotionEffectBasicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC5E791A0E42C1001E5979 /* UIMotionEffectBasicsTests.m */,
+				DDDC5E771A0E42C1001E5979 /* Supporting Files */,
+			);
+			path = UIMotionEffectBasicsTests;
+			sourceTree = "<group>";
+		};
+		DDDC5E771A0E42C1001E5979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC5E781A0E42C1001E5979 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDC5E591A0E42C1001E5979 /* UIMotionEffectBasics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDC5E7D1A0E42C1001E5979 /* Build configuration list for PBXNativeTarget "UIMotionEffectBasics" */;
+			buildPhases = (
+				DDDC5E561A0E42C1001E5979 /* Sources */,
+				DDDC5E571A0E42C1001E5979 /* Frameworks */,
+				DDDC5E581A0E42C1001E5979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIMotionEffectBasics;
+			productName = UIMotionEffectBasics;
+			productReference = DDDC5E5A1A0E42C1001E5979 /* UIMotionEffectBasics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDC5E721A0E42C1001E5979 /* UIMotionEffectBasicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDC5E801A0E42C1001E5979 /* Build configuration list for PBXNativeTarget "UIMotionEffectBasicsTests" */;
+			buildPhases = (
+				DDDC5E6F1A0E42C1001E5979 /* Sources */,
+				DDDC5E701A0E42C1001E5979 /* Frameworks */,
+				DDDC5E711A0E42C1001E5979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDC5E751A0E42C1001E5979 /* PBXTargetDependency */,
+			);
+			name = UIMotionEffectBasicsTests;
+			productName = UIMotionEffectBasicsTests;
+			productReference = DDDC5E731A0E42C1001E5979 /* UIMotionEffectBasicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDC5E521A0E42C1001E5979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Catalin Rosioru";
+				TargetAttributes = {
+					DDDC5E591A0E42C1001E5979 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DDDC5E721A0E42C1001E5979 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DDDC5E591A0E42C1001E5979;
+					};
+				};
+			};
+			buildConfigurationList = DDDC5E551A0E42C1001E5979 /* Build configuration list for PBXProject "UIMotionEffectBasics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDC5E511A0E42C1001E5979;
+			productRefGroup = DDDC5E5B1A0E42C1001E5979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDC5E591A0E42C1001E5979 /* UIMotionEffectBasics */,
+				DDDC5E721A0E42C1001E5979 /* UIMotionEffectBasicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDC5E581A0E42C1001E5979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC5E691A0E42C1001E5979 /* Main.storyboard in Resources */,
+				DDDC5E6E1A0E42C1001E5979 /* LaunchScreen.xib in Resources */,
+				DDDC5E6B1A0E42C1001E5979 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDC5E711A0E42C1001E5979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDC5E561A0E42C1001E5979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC5E661A0E42C1001E5979 /* ViewController.m in Sources */,
+				DDD9B60E1A0F601C0089C94F /* CCRLogarithmicMotionEffect.m in Sources */,
+				DDDC5E631A0E42C1001E5979 /* AppDelegate.m in Sources */,
+				DDDC5E601A0E42C1001E5979 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDC5E6F1A0E42C1001E5979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC5E7A1A0E42C1001E5979 /* UIMotionEffectBasicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDC5E751A0E42C1001E5979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDC5E591A0E42C1001E5979 /* UIMotionEffectBasics */;
+			targetProxy = DDDC5E741A0E42C1001E5979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDDC5E671A0E42C1001E5979 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDC5E681A0E42C1001E5979 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDDC5E6C1A0E42C1001E5979 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDC5E6D1A0E42C1001E5979 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDC5E7B1A0E42C1001E5979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDDC5E7C1A0E42C1001E5979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDC5E7E1A0E42C1001E5979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIMotionEffectBasics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDDC5E7F1A0E42C1001E5979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIMotionEffectBasics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDDC5E811A0E42C1001E5979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIMotionEffectBasicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIMotionEffectBasics.app/UIMotionEffectBasics";
+			};
+			name = Debug;
+		};
+		DDDC5E821A0E42C1001E5979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIMotionEffectBasicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIMotionEffectBasics.app/UIMotionEffectBasics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDC5E551A0E42C1001E5979 /* Build configuration list for PBXProject "UIMotionEffectBasics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDC5E7B1A0E42C1001E5979 /* Debug */,
+				DDDC5E7C1A0E42C1001E5979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDC5E7D1A0E42C1001E5979 /* Build configuration list for PBXNativeTarget "UIMotionEffectBasics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDC5E7E1A0E42C1001E5979 /* Debug */,
+				DDDC5E7F1A0E42C1001E5979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDC5E801A0E42C1001E5979 /* Build configuration list for PBXNativeTarget "UIMotionEffectBasicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDC5E811A0E42C1001E5979 /* Debug */,
+				DDDC5E821A0E42C1001E5979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDC5E521A0E42C1001E5979 /* Project object */;
+}
